@@ -1,17 +1,16 @@
 <template>
-  <q-page class="row items-center justify-evenly">
-    <h1 className="text-3xl font-bold underline">Hello world!</h1>
+  <q-page>
+    <GiphsList />
   </q-page>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts">
+import { useQuasar } from 'quasar';
+import GiphsList from 'src/components/GiphList.vue';
+import { onMounted } from 'vue';
 
-export default defineComponent({
-  name: 'IndexPage',
-  components: {},
-  setup() {
-    return {};
-  },
+onMounted(() => {
+  const theme = useQuasar();
+  theme.dark.set(true);
 });
 </script>
