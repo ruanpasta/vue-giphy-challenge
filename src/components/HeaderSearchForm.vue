@@ -1,6 +1,6 @@
 <template>
   <q-form @submit.prevent="onSubmit">
-    <q-input standout="bg-teal text-white" v-model="query" label="Search">
+    <q-input standout="bg-green text-white" v-model="query" label="Search">
       <template v-slot:append>
         <q-icon
           v-if="query"
