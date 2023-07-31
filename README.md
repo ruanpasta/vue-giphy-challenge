@@ -6,8 +6,7 @@ Este projeto foi desenvolvido para atender a um desafio de curto prazo e foi des
 Aqui desenvolvi um sistema que busca giphys de uma API externa. Eh possivel pesquisar giphys especificos e por categorias. Tambem eh possivel clicar em um giph, para ver ele em uma resolucao maior e poder copiar seu link de compartilhamento.
 
 As principais technologias utilizadas nesse projeto foram:\
-<img src="https://img.shields.io/badge/Vue.js-35495E?logo=vue.js&logoColor=4FC08D
-"/>
+<img src="https://img.shields.io/badge/Vue.js-35495E?logo=vue.js&logoColor=4FC08D"/>
 <img src="https://img.shields.io/badge/Quasar-35495E?logo=quasar&logoColor=006eff"/>
 <img src="https://img.shields.io/badge/Pinia-f5e942?logo=pineapple&logoColor=006eff"/>
 <img src="https://img.shields.io/badge/TailwindCSS-35495E?logo=TailwindCSS&logoColor=006eff"/>
